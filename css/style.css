@@ -1,9 +1,12 @@
+@import url("header.css");
+
 :root {
     --primary: #8e2424;
+    --gray: #667085;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', helvetica, sans-serif;
 }
 
 .nav-menu {
