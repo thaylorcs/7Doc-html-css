@@ -1,9 +1,11 @@
 @import url("header.css");
 @import url("sobre.css");
+@import url("vagas.css");
 
 :root {
     --primary: #8e2424;
     --gray: #667085;
+    --background-red: #C3191908;
     box-sizing: border-box;
 
 }
@@ -12,6 +14,30 @@ body {
     font-family: 'Inter', helvetica, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 90%;
+    text-align: center;
+}
+
+.destaque-vermelho {
+    color: var(--primary);
+    font-weight: 600;
+    z-index: 10;
+}
+
+.bg-vermelho-alpha {
+    background-color: var(--background-red);
+    opacity: 0.;
+    z-index: 0;
+    padding: 0 10px;
+    border-radius: 16px;
 }
 
 .nav-menu {
