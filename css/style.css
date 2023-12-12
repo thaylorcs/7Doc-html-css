@@ -6,6 +6,7 @@
     --primary: #8e2424;
     --gray: #667085;
     --background-red: #C3191908;
+    --gray-font: #667085;
     box-sizing: border-box;
 
 }
@@ -17,7 +18,6 @@ body {
 }
 
 .container {
-    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,11 +33,11 @@ body {
 }
 
 .bg-vermelho-alpha {
+    align-self: center;
     background-color: var(--background-red);
-    opacity: 0.;
-    z-index: 0;
     padding: 0 10px;
     border-radius: 16px;
+    width: fit-content;
 }
 
 .nav-menu {

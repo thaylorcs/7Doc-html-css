@@ -1,9 +1,35 @@
-.vagas {
+.talentos {
     margin-bottom: 20px;
 }
 
-.vagas img {
+.talentos img {
     max-width: 100%;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.area {
+    text-align: left;
+}
+
+.job-description {
+    border: 1px solid #eaecf0;
+    border-radius: 16px;
+    padding: 24px 24px 28px 24px;
+    margin-bottom: 20px;
+}
+
+.hours, .salary {
+    color: var(--gray-font);
+    margin-right: 10px;
+}
+
+.vaga-titulo {
+    text-align: left;
+    font-weight: 500;
+}
+
+.job-info {
+    display: flex;
+    max-width: 30%;
 }
