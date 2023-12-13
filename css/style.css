@@ -1,6 +1,7 @@
 @import url("header.css");
 @import url("sobre.css");
 @import url("vagas.css");
+@import url("testimonials.css");
 
 :root {
     --primary: #8e2424;
@@ -36,8 +37,6 @@ body {
     align-self: center;
     background-color: var(--background-red);
     padding: 0 10px;
-    border-radius: 16px;
-    width: fit-content;
 }
 
 .nav-menu {
