@@ -2,12 +2,14 @@
 @import url("sobre.css");
 @import url("vagas.css");
 @import url("testimonials.css");
+@import url("footer.css");
 
 :root {
     --primary: #8e2424;
-    --gray: #667085;
+    --gray-bg: #66708505;
     --background-red: #C3191908;
     --gray-font: #667085;
+    --gray-border: #667085;
     box-sizing: border-box;
 
 }

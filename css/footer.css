@@ -1,0 +1,31 @@
+.gray-bg {
+    background-color: var(--gray-bg);
+}
+
+.footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-heading {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.footer p {
+    color: var(--gray-font);
+}
+
+.subscribe {
+    margin-top: 15px;
+}
+
+#email-input {
+    border: 1px solid #667085;
+    border-radius: 2px;
+    width: 300px;
+    padding: 8px;
+}
