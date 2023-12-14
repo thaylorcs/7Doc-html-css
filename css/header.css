@@ -1,3 +1,7 @@
+.nav-menu {
+    width: 90%;
+}
+
 .sobre-nos-container {
     display: flex;
     padding: 96px 0;
@@ -5,11 +9,6 @@
     align-items: center;
     max-width: 63%;
     margin: 0 auto;
-}
-
-.sobre-nos-destaque {
-    color: var(--primary);
-    font-weight: 600;
 }
 
 .sobre-nos-titulo {

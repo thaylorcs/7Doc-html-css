@@ -1,3 +1,7 @@
+.vagas-pill {
+    border-radius: 16px;
+}
+
 .talentos {
     margin-bottom: 20px;
 }
@@ -6,6 +10,10 @@
     max-width: 100%;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.vagas {
+    width: 50%;
 }
 
 .area {
@@ -31,5 +39,6 @@
 
 .job-info {
     display: flex;
-    max-width: 30%;
+    max-width: 50%;
+    width: 40%;
 }
